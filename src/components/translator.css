@@ -1,0 +1,11 @@
+.translated_body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+h3{
+    text-transform: capitalize;
+}
