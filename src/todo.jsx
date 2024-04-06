@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import Translator from "./components/Translator";
 import alanBtn from "@alan-ai/alan-sdk-web";
 import axios from "axios";
@@ -90,7 +90,7 @@ const Todo = () => {
 
   useLayoutEffect(() => {
     translate();
-  }, [input, sourceCode, destcode]);
+  }, [input, sourceCode, destcode,translate]);
 
   const translate = () => {
     let body = {
