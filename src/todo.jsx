@@ -90,7 +90,7 @@ const Todo = () => {
 
   useLayoutEffect(() => {
     translate();
-  }, [input, sourceCode, destcode,translate]);
+  }, [input, sourceCode, destcode]);
 
   const translate = () => {
     let body = {
